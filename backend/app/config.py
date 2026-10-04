@@ -1,10 +1,12 @@
 import os
 from pydantic_settings import BaseSettings
 
+default_db = "sqlite:////tmp/campusnav.db" if os.environ.get("VERCEL") else "sqlite:///./campusnav.db"
+
 class Settings(BaseSettings):
     PROJECT_NAME: str = "CampusNav API"
     API_V1_STR: str = "/api"
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./campusnav.db")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", default_db)
     SECRET_KEY: str = os.getenv("SECRET_KEY", "campusnav_super_secret_jwt_key_change_in_production_2026")
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440

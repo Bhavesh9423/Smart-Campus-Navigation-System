@@ -19,8 +19,13 @@ from app.routes.emergency import router as emergency_router
 from app.routes.assistant import router as assistant_router
 from app.routes.admin import router as admin_router
 
+_initialized = False
+
 def init_db():
     """Ensure database tables, seeds, and navigation graph are loaded."""
+    global _initialized
+    if _initialized:
+        return
     try:
         Base.metadata.create_all(bind=engine)
         db = SessionLocal()
@@ -28,6 +33,7 @@ def init_db():
             seed_database(db)
             navigation_service.load_graph(db)
             print("[Startup] CampusNav database and routing graph successfully initialized.")
+            _initialized = True
         finally:
             db.close()
     except Exception as e:
@@ -47,6 +53,8 @@ app = FastAPI(
     title=settings.PROJECT_NAME,
     description="Smart GIS-Based College Campus Navigation System API",
     version="1.0.0",
+    docs_url=f"{settings.API_V1_STR}/docs",
+    openapi_url=f"{settings.API_V1_STR}/openapi.json",
     lifespan=lifespan
 )
 
@@ -74,11 +82,13 @@ app.include_router(assistant_router, prefix=api_prefix)
 app.include_router(admin_router, prefix=api_prefix)
 
 @app.get("/")
+@app.get(f"{api_prefix}")
+@app.get(f"{api_prefix}/")
 def root():
     return {
         "name": "CampusNav API",
         "version": "1.0.0",
-        "docs": "/docs",
+        "docs": f"{api_prefix}/docs",
         "status": "online"
     }
 

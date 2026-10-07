@@ -1,10 +1,14 @@
 import sys
 import os
 
-# Add backend directory to sys.path so app imports work seamlessly
-backend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend"))
-if backend_dir not in sys.path:
-    sys.path.insert(0, backend_dir)
+# Add paths to sys.path so app imports work seamlessly in local and Vercel environments
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.abspath(os.path.join(current_dir, ".."))
+backend_dir = os.path.join(root_dir, "backend")
+
+for p in [backend_dir, root_dir, "/var/task/backend", "/var/task"]:
+    if os.path.exists(p) and p not in sys.path:
+        sys.path.insert(0, p)
 
 try:
     from app.main import app, init_db

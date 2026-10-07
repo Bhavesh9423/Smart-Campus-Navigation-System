@@ -1,0 +1,1066 @@
+{
+  "campus_info": {
+    "name": "Apex Institute of Technology & Science",
+    "short_name": "AITS Campus",
+    "description": "Smart, green, state-of-the-art campus navigation network",
+    "center": {
+      "latitude": 13.0105,
+      "longitude": 80.2355
+    },
+    "default_zoom": 17,
+    "bounds": {
+      "southWest": [13.0060, 80.2300],
+      "northEast": [13.0160, 80.2420]
+    }
+  },
+  "categories": [
+    { "id": "academic", "name": "Academic", "icon": "GraduationCap", "color": "#2563eb" },
+    { "id": "department", "name": "Departments", "icon": "BookOpen", "color": "#0284c7" },
+    { "id": "laboratory", "name": "Laboratories", "icon": "FlaskConical", "color": "#059669" },
+    { "id": "library", "name": "Library", "icon": "Library", "color": "#7c3aed" },
+    { "id": "food", "name": "Food & Canteen", "icon": "Utensils", "color": "#ea580c" },
+    { "id": "hostel", "name": "Hostels", "icon": "Home", "color": "#db2777" },
+    { "id": "parking", "name": "Parking", "icon": "Car", "color": "#4b5563" },
+    { "id": "medical", "name": "Medical Center", "icon": "Cross", "color": "#dc2626" },
+    { "id": "sports", "name": "Sports & Gym", "icon": "Trophy", "color": "#16a34a" },
+    { "id": "administration", "name": "Administration", "icon": "Landmark", "color": "#4f46e5" },
+    { "id": "facility", "name": "Facilities & Utilities", "icon": "Layers", "color": "#0d9488" },
+    { "id": "emergency", "name": "Emergency", "icon": "AlertTriangle", "color": "#e11d48" }
+  ],
+  "buildings": [
+    {
+      "id": "b-gate-main",
+      "name": "Main Gate & Welcome Center",
+      "code": "GATE-1",
+      "category": "emergency",
+      "entrance_node_id": "N-01",
+      "latitude": 13.0070,
+      "longitude": 80.2355,
+      "description": "Primary campus entrance for visitors, students, and shuttle transit with security booth.",
+      "floors_count": 1,
+      "polygon": [
+        [13.0068, 80.2352],
+        [13.0072, 80.2352],
+        [13.0072, 80.2358],
+        [13.0068, 80.2358]
+      ],
+      "departments": ["Campus Security", "Visitor Helpdesk"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "G-01", "name": "Security Control Post", "type": "Office" },
+            { "room_no": "G-02", "name": "Visitor Registration Desk", "type": "Helpdesk" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-admin",
+      "name": "Administration Block",
+      "code": "ADMN",
+      "category": "administration",
+      "entrance_node_id": "N-03",
+      "latitude": 13.0085,
+      "longitude": 80.2345,
+      "description": "Central administrative headquarters including Dean's office, Registrar, and Academic Affairs.",
+      "floors_count": 3,
+      "polygon": [
+        [13.0082, 80.2340],
+        [13.0088, 80.2340],
+        [13.0088, 80.2350],
+        [13.0082, 80.2350]
+      ],
+      "departments": ["Office of the Dean", "Registrar Office", "Finance Department", "Student Affairs"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "101", "name": "Student Admissions & Fees", "type": "Office" },
+            { "room_no": "102", "name": "Visitor Lobby & Lounge", "type": "Lobby" },
+            { "room_no": "103", "name": "Accounts & Verification", "type": "Office" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "201", "name": "Registrar Chamber", "type": "Executive" },
+            { "room_no": "202", "name": "Academic Council Boardroom", "type": "Conference" },
+            { "room_no": "203", "name": "Faculty Affairs Office", "type": "Office" }
+          ]
+        },
+        {
+          "floor_number": 2,
+          "name": "Second Floor",
+          "rooms": [
+            { "room_no": "301", "name": "Director General Suite", "type": "Executive" },
+            { "room_no": "302", "name": "Dean Academics Office", "type": "Office" },
+            { "room_no": "303", "name": "Executive Seminar Hall", "type": "Auditorium" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-academic-a",
+      "name": "Academic Block A",
+      "code": "ACA",
+      "category": "academic",
+      "entrance_node_id": "N-06",
+      "latitude": 13.0100,
+      "longitude": 80.2335,
+      "description": "Multidisciplinary academic complex hosting Computer Science, Mathematics, and lecture theaters.",
+      "floors_count": 4,
+      "polygon": [
+        [13.0096, 80.2330],
+        [13.0104, 80.2330],
+        [13.0104, 80.2340],
+        [13.0096, 80.2340]
+      ],
+      "departments": ["Computer Engineering", "Mathematics & Computing", "Humanities"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "A-001", "name": "Central Lecture Hall A1", "type": "Lecture Hall" },
+            { "room_no": "A-002", "name": "Computing Commons", "type": "Lab" },
+            { "room_no": "A-003", "name": "Department Reception", "type": "Reception" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "A-101", "name": "Classroom 101", "type": "Classroom" },
+            { "room_no": "A-102", "name": "Classroom 102", "type": "Classroom" },
+            { "room_no": "A-103", "name": "Data Structures Lab", "type": "Lab" }
+          ]
+        },
+        {
+          "floor_number": 2,
+          "name": "Second Floor",
+          "rooms": [
+            { "room_no": "A-201", "name": "Computer Engineering Dept Office", "type": "Office" },
+            { "room_no": "A-202", "name": "Faculty Cabin Zone 1", "type": "Faculty" },
+            { "room_no": "A-205", "name": "Software Engineering Lab", "type": "Lab" }
+          ]
+        },
+        {
+          "floor_number": 3,
+          "name": "Third Floor",
+          "rooms": [
+            { "room_no": "A-301", "name": "Seminar Hall A", "type": "Seminar Hall" },
+            { "room_no": "A-302", "name": "Cloud Computing Lab", "type": "Lab" },
+            { "room_no": "A-303", "name": "PG Research Scholar Studio", "type": "Research" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-academic-b",
+      "name": "Academic Block B",
+      "code": "ACB",
+      "category": "academic",
+      "entrance_node_id": "N-08",
+      "latitude": 13.0118,
+      "longitude": 80.2335,
+      "description": "Houses Electronics & Communication, Electrical Engineering, and Physics labs.",
+      "floors_count": 4,
+      "polygon": [
+        [13.0114, 80.2330],
+        [13.0122, 80.2330],
+        [13.0122, 80.2340],
+        [13.0114, 80.2340]
+      ],
+      "departments": ["Electronics & Communication", "Electrical Engineering", "Applied Physics"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "B-001", "name": "Circuits & Systems Lab", "type": "Lab" },
+            { "room_no": "B-002", "name": "Lecture Hall B1", "type": "Lecture Hall" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "B-101", "name": "VLSI Design Center", "type": "Lab" },
+            { "room_no": "B-102", "name": "ECE Department Office", "type": "Office" },
+            { "room_no": "B-105", "name": "Microprocessor Lab", "type": "Lab" }
+          ]
+        },
+        {
+          "floor_number": 2,
+          "name": "Second Floor",
+          "rooms": [
+            { "room_no": "B-201", "name": "Signal Processing Studio", "type": "Lab" },
+            { "room_no": "B-204", "name": "Faculty Research Hub", "type": "Faculty" }
+          ]
+        },
+        {
+          "floor_number": 3,
+          "name": "Third Floor",
+          "rooms": [
+            { "room_no": "B-301", "name": "Seminar Hall B", "type": "Seminar Hall" },
+            { "room_no": "B-302", "name": "Photonics & Optical Fiber Lab", "type": "Lab" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-cse-dept",
+      "name": "Computer Engineering Department",
+      "code": "CSE",
+      "category": "department",
+      "entrance_node_id": "N-07",
+      "latitude": 13.0108,
+      "longitude": 80.2346,
+      "description": "Dedicated computing wing equipped with AI accelerators, servers, and modern programming bays.",
+      "floors_count": 3,
+      "polygon": [
+        [13.0105, 80.2342],
+        [13.0111, 80.2342],
+        [13.0111, 80.2350],
+        [13.0105, 80.2350]
+      ],
+      "departments": ["Computer Engineering", "Cybersecurity", "Network Architecture"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "CS-01", "name": "Server & Data Center", "type": "Facility" },
+            { "room_no": "CS-02", "name": "Open Source Innovation Lab", "type": "Lab" },
+            { "room_no": "CS-03", "name": "HOD Office - Computer Engineering", "type": "Executive" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "CS-101", "name": "Cybersecurity & Cryptography Lab", "type": "Lab" },
+            { "room_no": "CS-102", "name": "Operating Systems Bay", "type": "Lab" },
+            { "room_no": "CS-103", "name": "Faculty Conference Room", "type": "Conference" }
+          ]
+        },
+        {
+          "floor_number": 2,
+          "name": "Second Floor",
+          "rooms": [
+            { "room_no": "CS-201", "name": "Distributed Systems Lab", "type": "Lab" },
+            { "room_no": "CS-202", "name": "Seminar Hall 1", "type": "Seminar Hall" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-aids-dept",
+      "name": "AI & Data Science Department",
+      "code": "AIDS",
+      "category": "department",
+      "entrance_node_id": "N-11",
+      "latitude": 13.0125,
+      "longitude": 80.2348,
+      "description": "Advanced center for Machine Learning, Generative AI research, and Big Data Analytics.",
+      "floors_count": 3,
+      "polygon": [
+        [13.0122, 80.2344],
+        [13.0128, 80.2344],
+        [13.0128, 80.2352],
+        [13.0122, 80.2352]
+      ],
+      "departments": ["Artificial Intelligence", "Data Science", "Machine Vision"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "AI-01", "name": "GPU Compute Cluster Room", "type": "Lab" },
+            { "room_no": "AI-02", "name": "HOD Office - AI & DS", "type": "Office" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "AI-101", "name": "Deep Learning & NLP Lab", "type": "Lab" },
+            { "room_no": "AI-102", "name": "Computer Vision Studio", "type": "Lab" }
+          ]
+        },
+        {
+          "floor_number": 2,
+          "name": "Second Floor",
+          "rooms": [
+            { "room_no": "AI-201", "name": "AI Ethics & Robotics Seminar Suite", "type": "Seminar Hall" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-mech-dept",
+      "name": "Mechanical Department",
+      "code": "MECH",
+      "category": "department",
+      "entrance_node_id": "N-14",
+      "latitude": 13.0135,
+      "longitude": 80.2335,
+      "description": "Department of Mechanical Engineering with heavy machinery, thermodynamic testing, and CAD rooms.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0131, 80.2330],
+        [13.0139, 80.2330],
+        [13.0139, 80.2340],
+        [13.0131, 80.2340]
+      ],
+      "departments": ["Mechanical Engineering", "Mechatronics", "Automotive Design"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "ME-01", "name": "Internal Combustion Engines Lab", "type": "Lab" },
+            { "room_no": "ME-02", "name": "Heavy Machine Workshop", "type": "Workshop" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "ME-101", "name": "CAD / CAM Simulation Center", "type": "Lab" },
+            { "room_no": "ME-102", "name": "HOD Office - Mechanical", "type": "Office" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-civil-dept",
+      "name": "Civil Department",
+      "code": "CIVIL",
+      "category": "department",
+      "entrance_node_id": "N-16",
+      "latitude": 13.0145,
+      "longitude": 80.2338,
+      "description": "Civil & Environmental Engineering building containing structural testing rigs and surveying bays.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0141, 80.2333],
+        [13.0149, 80.2333],
+        [13.0149, 80.2343],
+        [13.0141, 80.2343]
+      ],
+      "departments": ["Civil Engineering", "Geotechnical Systems", "Environmental Engg"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "CE-01", "name": "Strength of Materials Lab", "type": "Lab" },
+            { "room_no": "CE-02", "name": "Concrete Technology Lab", "type": "Lab" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "CE-101", "name": "Geotechnical & Soil Mechanics Lab", "type": "Lab" },
+            { "room_no": "CE-102", "name": "Surveying Equipment Bay", "type": "Lab" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-library",
+      "name": "Central Library",
+      "code": "LIB",
+      "category": "library",
+      "entrance_node_id": "N-09",
+      "latitude": 13.0105,
+      "longitude": 80.2368,
+      "description": "Three-story modern knowledge repository with digital reading lounge, research archives, and quiet study pods.",
+      "floors_count": 3,
+      "polygon": [
+        [13.0100, 80.2363],
+        [13.0110, 80.2363],
+        [13.0110, 80.2373],
+        [13.0100, 80.2373]
+      ],
+      "departments": ["Library & Information Sciences", "Digital Learning Hub"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "LIB-01", "name": "Circulation Desk & Issue Counter", "type": "Helpdesk" },
+            { "room_no": "LIB-02", "name": "Newspaper & Periodicals Section", "type": "Reading Area" },
+            { "room_no": "LIB-03", "name": "Librarian In-Charge Office", "type": "Office" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "LIB-101", "name": "Engineering & Technology Stack Room", "type": "Stacks" },
+            { "room_no": "LIB-102", "name": "Digital E-Library & Online Terminals", "type": "Computer Lab" },
+            { "room_no": "LIB-103", "name": "Group Discussion Pods 1-4", "type": "Discussion" }
+          ]
+        },
+        {
+          "floor_number": 2,
+          "name": "Second Floor",
+          "rooms": [
+            { "room_no": "LIB-201", "name": "Postgraduate & Faculty Research Archives", "type": "Research" },
+            { "room_no": "LIB-202", "name": "Silent Individual Reading Hall", "type": "Silent Zone" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-canteen",
+      "name": "Canteen & Student Food Court",
+      "code": "CANTEEN",
+      "category": "food",
+      "entrance_node_id": "N-12",
+      "latitude": 13.0090,
+      "longitude": 80.2365,
+      "description": "Multi-cuisine cafeteria with indoor air-conditioned seating, open terrace cafe, and quick snack counters.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0086, 80.2360],
+        [13.0094, 80.2360],
+        [13.0094, 80.2370],
+        [13.0086, 80.2370]
+      ],
+      "departments": ["Campus Dining Services", "Student Affairs Hospitality"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "FC-01", "name": "South & North Indian Meal Counters", "type": "Dining" },
+            { "room_no": "FC-02", "name": "Fresh Juice & Coffee Kiosk", "type": "Beverages" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "FC-101", "name": "Faculty Dining Lounge", "type": "Dining" },
+            { "room_no": "FC-102", "name": "Terrace Garden Cafe", "type": "Outdoor Seating" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-boys-hostel",
+      "name": "Boys Hostel Complex",
+      "code": "BH",
+      "category": "hostel",
+      "entrance_node_id": "N-20",
+      "latitude": 13.0135,
+      "longitude": 80.2380,
+      "description": "Multi-wing student residential quarters with recreation room, mess hall, and resident warden office.",
+      "floors_count": 4,
+      "polygon": [
+        [13.0130, 80.2375],
+        [13.0140, 80.2375],
+        [13.0140, 80.2385],
+        [13.0130, 80.2385]
+      ],
+      "departments": ["Hostel Administration", "Warden Board"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "BH-G01", "name": "Chief Warden Office", "type": "Office" },
+            { "room_no": "BH-G02", "name": "Hostel Dining Hall & Mess", "type": "Dining" },
+            { "room_no": "BH-G03", "name": "Indoor Games & TV Room", "type": "Recreation" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "BH-101", "name": "Resident Rooms 101-120", "type": "Hostel Rooms" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-girls-hostel",
+      "name": "Girls Hostel Complex",
+      "code": "GH",
+      "category": "hostel",
+      "entrance_node_id": "N-22",
+      "latitude": 13.0148,
+      "longitude": 80.2370,
+      "description": "Safe, secure hostel facility for female students with 24/7 biometric access and dedicated study zone.",
+      "floors_count": 4,
+      "polygon": [
+        [13.0143, 80.2365],
+        [13.0153, 80.2365],
+        [13.0153, 80.2375],
+        [13.0143, 80.2375]
+      ],
+      "departments": ["Hostel Administration", "Warden Security"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "GH-G01", "name": "Girls Hostel Reception & Warden Office", "type": "Office" },
+            { "room_no": "GH-G02", "name": "Mess & Dining Lounge", "type": "Dining" }
+          ]
+        },
+        {
+          "floor_number": 1,
+          "name": "First Floor",
+          "rooms": [
+            { "room_no": "GH-101", "name": "Student Living Wings 101-125", "type": "Hostel Rooms" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-sports",
+      "name": "Sports Ground & Gymnasium",
+      "code": "SPORTS",
+      "category": "sports",
+      "entrance_node_id": "N-24",
+      "latitude": 13.0125,
+      "longitude": 80.2395,
+      "description": "Athletic track, football pitch, indoor badminton courts, and modern weight training gymnasium.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0118, 80.2388],
+        [13.0132, 80.2388],
+        [13.0132, 80.2402],
+        [13.0118, 80.2402]
+      ],
+      "departments": ["Physical Education Department", "Athletics Council"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "SP-01", "name": "Fitness Gymnasium & Weight Room", "type": "Gym" },
+            { "room_no": "SP-02", "name": "Sports Director Office", "type": "Office" },
+            { "room_no": "SP-03", "name": "Locker & Shower Rooms", "type": "Utility" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-medical",
+      "name": "Medical Center",
+      "code": "MED",
+      "category": "medical",
+      "entrance_node_id": "N-26",
+      "latitude": 13.0075,
+      "longitude": 80.2370,
+      "description": "Emergency clinic staffed with doctors, 24/7 nursing station, pharmacy, and ambulance bay.",
+      "floors_count": 1,
+      "polygon": [
+        [13.0072, 80.2366],
+        [13.0078, 80.2366],
+        [13.0078, 80.2374],
+        [13.0072, 80.2374]
+      ],
+      "departments": ["Campus Health Care", "Emergency Medicine"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "MC-01", "name": "Emergency Triage & Consultation", "type": "Clinic" },
+            { "room_no": "MC-02", "name": "Inpatient Observation Ward", "type": "Ward" },
+            { "room_no": "MC-03", "name": "Dispensary & Pharmacy", "type": "Pharmacy" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-parking-main",
+      "name": "Main Parking Area",
+      "code": "PARK1",
+      "category": "parking",
+      "entrance_node_id": "N-02",
+      "latitude": 13.0070,
+      "longitude": 80.2340,
+      "description": "Designated multi-vehicle parking for two-wheelers, four-wheelers, and electric vehicle charging bays.",
+      "floors_count": 1,
+      "polygon": [
+        [13.0066, 80.2335],
+        [13.0074, 80.2335],
+        [13.0074, 80.2345],
+        [13.0066, 80.2345]
+      ],
+      "departments": ["Campus Transport & Traffic Management"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "PK-01", "name": "Parking Attendant Booth", "type": "Utility" },
+            { "room_no": "PK-02", "name": "EV Fast Charging Station", "type": "Utility" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-seminar-hall",
+      "name": "Central Seminar Hall Complex",
+      "code": "SEM-HALL",
+      "category": "academic",
+      "entrance_node_id": "N-10",
+      "latitude": 13.0112,
+      "longitude": 80.2360,
+      "description": "Multi-tiered acoustic conference hall for academic symposia, guest lectures, and tech seminars.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0109, 80.2356],
+        [13.0115, 80.2356],
+        [13.0115, 80.2364],
+        [13.0109, 80.2364]
+      ],
+      "departments": ["Campus Events & Conferences"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "SH-01", "name": "Seminar Hall 1 (300 Capacity)", "type": "Auditorium" },
+            { "room_no": "SH-02", "name": "Green Room & Speaker Lounge", "type": "Lounge" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-auditorium",
+      "name": "Central Auditorium",
+      "code": "AUDI",
+      "category": "facility",
+      "entrance_node_id": "N-18",
+      "latitude": 13.0098,
+      "longitude": 80.2382,
+      "description": "Grand 1500-seat university auditorium for convocation, cultural festivals, and national symposiums.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0093, 80.2377],
+        [13.0103, 80.2377],
+        [13.0103, 80.2387],
+        [13.0093, 80.2387]
+      ],
+      "departments": ["Cultural Affairs Board"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "AUD-01", "name": "Main Auditorium Hall", "type": "Theater" },
+            { "room_no": "AUD-02", "name": "Audio-Visual Engineering Control Room", "type": "Control" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-security",
+      "name": "Security Office & Emergency Command",
+      "code": "SEC",
+      "category": "emergency",
+      "entrance_node_id": "N-04",
+      "latitude": 13.0078,
+      "longitude": 80.2358,
+      "description": "24/7 Campus safety monitoring center, CCTV surveillance hub, and emergency incident dispatch.",
+      "floors_count": 1,
+      "polygon": [
+        [13.0075, 80.2355],
+        [13.0081, 80.2355],
+        [13.0081, 80.2361],
+        [13.0075, 80.2361]
+      ],
+      "departments": ["Campus Vigilance", "Disaster Response"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "SEC-01", "name": "CCTV Control Room", "type": "Security" },
+            { "room_no": "SEC-02", "name": "Chief Security Officer Room", "type": "Office" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-robotics-lab",
+      "name": "Innovation & Robotics Lab",
+      "code": "ROBOTICS",
+      "category": "laboratory",
+      "entrance_node_id": "N-15",
+      "latitude": 13.0125,
+      "longitude": 80.2325,
+      "description": "Specialized incubator for autonomous robotics, drones, 3D printing, and rapid prototyping.",
+      "floors_count": 2,
+      "polygon": [
+        [13.0121, 80.2320],
+        [13.0129, 80.2320],
+        [13.0129, 80.2330],
+        [13.0121, 80.2330]
+      ],
+      "departments": ["Robotics & Automation", "Tinkering Hub"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "ROB-01", "name": "Additive Manufacturing & 3D Printers", "type": "Lab" },
+            { "room_no": "ROB-02", "name": "Autonomous Drone Arena", "type": "Testing" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-bus-stop",
+      "name": "Campus Bus Stop & Transit Hub",
+      "code": "BUS",
+      "category": "facility",
+      "entrance_node_id": "N-28",
+      "latitude": 13.0062,
+      "longitude": 80.2362,
+      "description": "Terminal for college transit buses, city connections, and electric shuttle pickup.",
+      "floors_count": 1,
+      "polygon": [
+        [13.0060, 80.2358],
+        [13.0064, 80.2358],
+        [13.0064, 80.2366],
+        [13.0060, 80.2366]
+      ],
+      "departments": ["Transport Wing"],
+      "floors": [
+        {
+          "floor_number": 0,
+          "name": "Ground Floor",
+          "rooms": [
+            { "room_no": "BS-01", "name": "Bus Pass & Inquiry Counter", "type": "Helpdesk" }
+          ]
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac-01",
+      "name": "Central Library Reading Hall",
+      "category": "library",
+      "building_id": "b-library",
+      "description": "Air-conditioned 200-seat silent reading room with Wi-Fi and power outlets at every desk.",
+      "latitude": 13.0105,
+      "longitude": 80.2368,
+      "opening_hours": "08:00 AM - 10:00 PM (Mon-Sat)",
+      "contact": "+91 44 2257 8001"
+    },
+    {
+      "id": "fac-02",
+      "name": "Tech Cafe & Food Court",
+      "category": "food",
+      "building_id": "b-canteen",
+      "description": "Fresh meals, snacks, gourmet coffees, and refreshments with student meal card acceptance.",
+      "latitude": 13.0090,
+      "longitude": 80.2365,
+      "opening_hours": "07:30 AM - 09:30 PM (Daily)",
+      "contact": "+91 44 2257 8002"
+    },
+    {
+      "id": "fac-03",
+      "name": "Campus Health Clinic & First Aid",
+      "category": "medical",
+      "building_id": "b-medical",
+      "description": "24/7 outpatient medical care, ambulance dispatch, and generic pharmacy.",
+      "latitude": 13.0075,
+      "longitude": 80.2370,
+      "opening_hours": "24 Hours (7 Days)",
+      "contact": "+91 44 2257 108"
+    },
+    {
+      "id": "fac-04",
+      "name": "SBI Campus ATM",
+      "category": "facility",
+      "building_id": "b-admin",
+      "description": "24-hour Automated Teller Machine with cash deposit and passbook kiosk.",
+      "latitude": 13.0084,
+      "longitude": 80.2348,
+      "opening_hours": "24 Hours",
+      "contact": "1800 1234 56"
+    },
+    {
+      "id": "fac-05",
+      "name": "Sports Pavilion & Gymnasium",
+      "category": "sports",
+      "building_id": "b-sports",
+      "description": "Modern fitness equipment, cardio stations, and certified coaches.",
+      "latitude": 13.0125,
+      "longitude": 80.2395,
+      "opening_hours": "06:00 AM - 09:00 AM, 04:30 PM - 08:30 PM",
+      "contact": "+91 44 2257 8005"
+    },
+    {
+      "id": "fac-06",
+      "name": "Emergency Assembly Point Alpha",
+      "category": "emergency",
+      "building_id": "b-academic-a",
+      "description": "Designated open-air safety evacuation area in front of Academic Block A lawn.",
+      "latitude": 13.0102,
+      "longitude": 80.2343,
+      "opening_hours": "Open 24/7",
+      "contact": "Campus Security: 100 / 108"
+    },
+    {
+      "id": "fac-07",
+      "name": "Emergency Assembly Point Beta",
+      "category": "emergency",
+      "building_id": "b-sports",
+      "description": "Primary assembly ground during earthquakes or campus-wide emergency protocols.",
+      "latitude": 13.0120,
+      "longitude": 80.2385,
+      "opening_hours": "Open 24/7",
+      "contact": "Security Command: 044-2257-9999"
+    },
+    {
+      "id": "fac-08",
+      "name": "Campus Security Command Booth",
+      "category": "emergency",
+      "building_id": "b-security",
+      "description": "Central security personnel station and lost & found verification.",
+      "latitude": 13.0078,
+      "longitude": 80.2358,
+      "opening_hours": "24 Hours",
+      "contact": "+91 44 2257 9999"
+    },
+    {
+      "id": "fac-09",
+      "name": "EV Fast Charging Station",
+      "category": "parking",
+      "building_id": "b-parking-main",
+      "description": "Equipped with Type-2 AC and CCS-2 DC fast charging points for campus visitors and faculty.",
+      "latitude": 13.0071,
+      "longitude": 80.2342,
+      "opening_hours": "24 Hours",
+      "contact": "Helpdesk Ext: 8012"
+    },
+    {
+      "id": "fac-10",
+      "name": "Central Restrooms - West Quad",
+      "category": "facility",
+      "building_id": "b-academic-a",
+      "description": "Clean, universally accessible restrooms with dedicated wheelchair ramp access.",
+      "latitude": 13.0098,
+      "longitude": 80.2332,
+      "opening_hours": "07:00 AM - 09:00 PM",
+      "contact": "Facilities: 8015"
+    },
+    {
+      "id": "fac-11",
+      "name": "Student Stationery & Xerox Center",
+      "category": "facility",
+      "building_id": "b-canteen",
+      "description": "High-speed document printing, spiral binding, thesis plotting, and academic stationery.",
+      "latitude": 13.0088,
+      "longitude": 80.2367,
+      "opening_hours": "08:30 AM - 07:30 PM",
+      "contact": "+91 98401 23456"
+    },
+    {
+      "id": "fac-12",
+      "name": "Placement & Career Development Cell",
+      "category": "administration",
+      "building_id": "b-admin",
+      "description": "Training halls, mock interview cubicles, and corporate recruiter meeting suites.",
+      "latitude": 13.0086,
+      "longitude": 80.2346,
+      "opening_hours": "09:00 AM - 06:00 PM",
+      "contact": "placement@apex.edu"
+    },
+    {
+      "id": "fac-13",
+      "name": "Dean of Academic Affairs Chamber",
+      "category": "administration",
+      "building_id": "b-admin",
+      "description": "Curriculum approval, academic grievances, and student records.",
+      "latitude": 13.0087,
+      "longitude": 80.2344,
+      "opening_hours": "10:00 AM - 04:30 PM",
+      "contact": "dean.acad@apex.edu"
+    },
+    {
+      "id": "fac-14",
+      "name": "High Performance GPU Server Bay",
+      "category": "laboratory",
+      "building_id": "b-cse-dept",
+      "description": "NVIDIA DGX A100 server cluster for AI researchers and deep learning courses.",
+      "latitude": 13.0107,
+      "longitude": 80.2347,
+      "opening_hours": "24/7 Remote / 08:30 AM - 06:00 PM Physical",
+      "contact": "hpc-admin@apex.edu"
+    },
+    {
+      "id": "fac-15",
+      "name": "Mechanical Engineering CAD Lab",
+      "category": "laboratory",
+      "building_id": "b-mech-dept",
+      "description": "SolidWorks and ANSYS certified laboratory with 60 workstations.",
+      "latitude": 13.0135,
+      "longitude": 80.2335,
+      "opening_hours": "08:30 AM - 05:30 PM",
+      "contact": "+91 44 2257 8016"
+    },
+    {
+      "id": "fac-16",
+      "name": "Civil Engineering Material Testing Lab",
+      "category": "laboratory",
+      "building_id": "b-civil-dept",
+      "description": "Universal Testing Machine (UTM) and compressive structural test rigs.",
+      "latitude": 13.0145,
+      "longitude": 80.2338,
+      "opening_hours": "08:30 AM - 05:30 PM",
+      "contact": "+91 44 2257 8017"
+    },
+    {
+      "id": "fac-17",
+      "name": "Maker Space & 3D Print Farm",
+      "category": "laboratory",
+      "building_id": "b-robotics-lab",
+      "description": "Open student workshop with filament/resin 3D printers, laser cutters, and electronics soldering.",
+      "latitude": 13.0125,
+      "longitude": 80.2325,
+      "opening_hours": "09:00 AM - 08:00 PM",
+      "contact": "makerspace@apex.edu"
+    },
+    {
+      "id": "fac-18",
+      "name": "Central Fire Alarm & Hydrant Post",
+      "category": "emergency",
+      "building_id": "b-library",
+      "description": "High-pressure fire suppression controls and safety emergency valve post.",
+      "latitude": 13.0102,
+      "longitude": 80.2365,
+      "opening_hours": "Always Active",
+      "contact": "Emergency: 101"
+    },
+    {
+      "id": "fac-19",
+      "name": "Shuttle Transit Waiting Shelter",
+      "category": "facility",
+      "building_id": "b-bus-stop",
+      "description": "Covered electric bus pickup shelter with solar charging benches.",
+      "latitude": 13.0062,
+      "longitude": 80.2362,
+      "opening_hours": "06:30 AM - 10:00 PM",
+      "contact": "ext: 8020"
+    },
+    {
+      "id": "fac-20",
+      "name": "Bank Branch & Student Account Desk",
+      "category": "facility",
+      "building_id": "b-admin",
+      "description": "Full-service branch for student scholarships, accounts, and educational drafts.",
+      "latitude": 13.0083,
+      "longitude": 80.2349,
+      "opening_hours": "10:00 AM - 04:00 PM (Mon-Fri)",
+      "contact": "+91 44 2257 8022"
+    }
+  ],
+  "nodes": [
+    { "id": "N-01", "name": "Main Gate Entrance Node", "latitude": 13.0070, "longitude": 80.2355, "node_type": "gate" },
+    { "id": "N-02", "name": "Parking Lot Node", "latitude": 13.0070, "longitude": 80.2340, "node_type": "junction" },
+    { "id": "N-03", "name": "Administration Block Entrance", "latitude": 13.0085, "longitude": 80.2345, "node_type": "building_entrance" },
+    { "id": "N-04", "name": "Security Office Node", "latitude": 13.0078, "longitude": 80.2358, "node_type": "building_entrance" },
+    { "id": "N-05", "name": "Central Plaza South", "latitude": 13.0088, "longitude": 80.2355, "node_type": "junction" },
+    { "id": "N-06", "name": "Academic Block A Entrance", "latitude": 13.0100, "longitude": 80.2335, "node_type": "building_entrance" },
+    { "id": "N-07", "name": "Computer Engineering Dept Entrance", "latitude": 13.0108, "longitude": 80.2346, "node_type": "building_entrance" },
+    { "id": "N-08", "name": "Academic Block B Entrance", "latitude": 13.0118, "longitude": 80.2335, "node_type": "building_entrance" },
+    { "id": "N-09", "name": "Central Library Entrance", "latitude": 13.0105, "longitude": 80.2368, "node_type": "building_entrance" },
+    { "id": "N-10", "name": "Seminar Hall Entrance", "latitude": 13.0112, "longitude": 80.2360, "node_type": "building_entrance" },
+    { "id": "N-11", "name": "AI & Data Science Dept Entrance", "latitude": 13.0125, "longitude": 80.2348, "node_type": "building_entrance" },
+    { "id": "N-12", "name": "Canteen Main Entrance", "latitude": 13.0090, "longitude": 80.2365, "node_type": "building_entrance" },
+    { "id": "N-13", "name": "Central Avenue North Junction", "latitude": 13.0115, "longitude": 80.2355, "node_type": "junction" },
+    { "id": "N-14", "name": "Mechanical Dept Entrance", "latitude": 13.0135, "longitude": 80.2335, "node_type": "building_entrance" },
+    { "id": "N-15", "name": "Robotics Lab Entrance", "latitude": 13.0125, "longitude": 80.2325, "node_type": "building_entrance" },
+    { "id": "N-16", "name": "Civil Dept Entrance", "latitude": 13.0145, "longitude": 80.2338, "node_type": "building_entrance" },
+    { "id": "N-17", "name": "North Walkway Junction", "latitude": 13.0135, "longitude": 80.2355, "node_type": "junction" },
+    { "id": "N-18", "name": "Auditorium Entrance", "latitude": 13.0098, "longitude": 80.2382, "node_type": "building_entrance" },
+    { "id": "N-19", "name": "East Avenue Junction", "latitude": 13.0105, "longitude": 80.2382, "node_type": "junction" },
+    { "id": "N-20", "name": "Boys Hostel Entrance", "latitude": 13.0135, "longitude": 80.2380, "node_type": "building_entrance" },
+    { "id": "N-21", "name": "Hostel Road Junction", "latitude": 13.0135, "longitude": 80.2368, "node_type": "junction" },
+    { "id": "N-22", "name": "Girls Hostel Entrance", "latitude": 13.0148, "longitude": 80.2370, "node_type": "building_entrance" },
+    { "id": "N-23", "name": "North-East Perimeter Gate", "latitude": 13.0152, "longitude": 80.2382, "node_type": "gate" },
+    { "id": "N-24", "name": "Sports Ground Entrance", "latitude": 13.0125, "longitude": 80.2395, "node_type": "building_entrance" },
+    { "id": "N-25", "name": "Sports Avenue Junction", "latitude": 13.0118, "longitude": 80.2382, "node_type": "junction" },
+    { "id": "N-26", "name": "Medical Center Entrance", "latitude": 13.0075, "longitude": 80.2370, "node_type": "building_entrance" },
+    { "id": "N-27", "name": "South-East Path Junction", "latitude": 13.0075, "longitude": 80.2355, "node_type": "junction" },
+    { "id": "N-28", "name": "Bus Stop & South Transit Node", "latitude": 13.0062, "longitude": 80.2362, "node_type": "transit" },
+    { "id": "N-29", "name": "South Walkway West Node", "latitude": 13.0075, "longitude": 80.2345, "node_type": "junction" },
+    { "id": "N-30", "name": "West Quad Central Junction", "latitude": 13.0100, "longitude": 80.2345, "node_type": "junction" },
+    { "id": "N-31", "name": "West Corridor Staircase Landing (Elevated)", "latitude": 13.0102, "longitude": 80.2350, "node_type": "stairs" },
+    { "id": "N-32", "name": "Library Terrace Overpass Stairs", "latitude": 13.0103, "longitude": 80.2362, "node_type": "stairs" },
+    { "id": "N-33", "name": "Accessible Ramp Way North", "latitude": 13.0106, "longitude": 80.2357, "node_type": "ramp" },
+    { "id": "N-34", "name": "Canteen Plaza North Node", "latitude": 13.0095, "longitude": 80.2368, "node_type": "junction" },
+    { "id": "N-35", "name": "Engineering Plaza Center", "latitude": 13.0120, "longitude": 80.2342, "node_type": "junction" }
+  ],
+  "paths": [
+    { "id": "P-01", "start_node_id": "N-01", "end_node_id": "N-27", "distance": 60, "walking_time": 45, "accessible": true, "path_type": "walkway" },
+    { "id": "P-02", "start_node_id": "N-27", "end_node_id": "N-04", "distance": 45, "walking_time": 35, "accessible": true, "path_type": "walkway" },
+    { "id": "P-03", "start_node_id": "N-27", "end_node_id": "N-29", "distance": 115, "walking_time": 85, "accessible": true, "path_type": "walkway" },
+    { "id": "P-04", "start_node_id": "N-29", "end_node_id": "N-02", "distance": 80, "walking_time": 60, "accessible": true, "path_type": "walkway" },
+    { "id": "P-05", "start_node_id": "N-29", "end_node_id": "N-03", "distance": 110, "walking_time": 80, "accessible": true, "path_type": "ramp" },
+    { "id": "P-06", "start_node_id": "N-27", "end_node_id": "N-05", "distance": 145, "walking_time": 105, "accessible": true, "path_type": "walkway" },
+    { "id": "P-07", "start_node_id": "N-04", "end_node_id": "N-26", "distance": 135, "walking_time": 100, "accessible": true, "path_type": "walkway" },
+    { "id": "P-08", "start_node_id": "N-01", "end_node_id": "N-28", "distance": 120, "walking_time": 90, "accessible": true, "path_type": "walkway" },
+    { "id": "P-09", "start_node_id": "N-28", "end_node_id": "N-26", "distance": 160, "walking_time": 120, "accessible": true, "path_type": "walkway" },
+    { "id": "P-10", "start_node_id": "N-03", "end_node_id": "N-05", "distance": 115, "walking_time": 85, "accessible": true, "path_type": "walkway" },
+    { "id": "P-11", "start_node_id": "N-03", "end_node_id": "N-30", "distance": 165, "walking_time": 120, "accessible": true, "path_type": "walkway" },
+    { "id": "P-12", "start_node_id": "N-05", "end_node_id": "N-12", "distance": 110, "walking_time": 80, "accessible": true, "path_type": "walkway" },
+    { "id": "P-13", "start_node_id": "N-05", "end_node_id": "N-30", "distance": 170, "walking_time": 125, "accessible": true, "path_type": "walkway" },
+    { "id": "P-14", "start_node_id": "N-30", "end_node_id": "N-06", "distance": 110, "walking_time": 80, "accessible": true, "path_type": "ramp" },
+    { "id": "P-15", "start_node_id": "N-30", "end_node_id": "N-07", "distance": 90, "walking_time": 65, "accessible": true, "path_type": "walkway" },
+    { "id": "P-16", "start_node_id": "N-30", "end_node_id": "N-31", "distance": 60, "walking_time": 45, "accessible": false, "path_type": "stairs" },
+    { "id": "P-17", "start_node_id": "N-31", "end_node_id": "N-32", "distance": 130, "walking_time": 95, "accessible": false, "path_type": "stairs" },
+    { "id": "P-18", "start_node_id": "N-32", "end_node_id": "N-09", "distance": 70, "walking_time": 50, "accessible": false, "path_type": "stairs" },
+    { "id": "P-19", "start_node_id": "N-05", "end_node_id": "N-33", "distance": 200, "walking_time": 150, "accessible": true, "path_type": "ramp" },
+    { "id": "P-20", "start_node_id": "N-33", "end_node_id": "N-13", "distance": 105, "walking_time": 75, "accessible": true, "path_type": "ramp" },
+    { "id": "P-21", "start_node_id": "N-33", "end_node_id": "N-09", "distance": 120, "walking_time": 90, "accessible": true, "path_type": "walkway" },
+    { "id": "P-22", "start_node_id": "N-12", "end_node_id": "N-34", "distance": 65, "walking_time": 50, "accessible": true, "path_type": "walkway" },
+    { "id": "P-23", "start_node_id": "N-34", "end_node_id": "N-09", "distance": 110, "walking_time": 80, "accessible": true, "path_type": "walkway" },
+    { "id": "P-24", "start_node_id": "N-34", "end_node_id": "N-18", "distance": 150, "walking_time": 110, "accessible": true, "path_type": "walkway" },
+    { "id": "P-25", "start_node_id": "N-26", "end_node_id": "N-18", "distance": 280, "walking_time": 210, "accessible": true, "path_type": "walkway" },
+    { "id": "P-26", "start_node_id": "N-18", "end_node_id": "N-19", "distance": 80, "walking_time": 60, "accessible": true, "path_type": "walkway" },
+    { "id": "P-27", "start_node_id": "N-09", "end_node_id": "N-19", "distance": 150, "walking_time": 110, "accessible": true, "path_type": "walkway" },
+    { "id": "P-28", "start_node_id": "N-09", "end_node_id": "N-10", "distance": 120, "walking_time": 90, "accessible": true, "path_type": "walkway" },
+    { "id": "P-29", "start_node_id": "N-10", "end_node_id": "N-13", "distance": 65, "walking_time": 50, "accessible": true, "path_type": "walkway" },
+    { "id": "P-30", "start_node_id": "N-07", "end_node_id": "N-13", "distance": 125, "walking_time": 95, "accessible": true, "path_type": "walkway" },
+    { "id": "P-31", "start_node_id": "N-06", "end_node_id": "N-08", "distance": 200, "walking_time": 150, "accessible": true, "path_type": "walkway" },
+    { "id": "P-32", "start_node_id": "N-08", "end_node_id": "N-35", "distance": 80, "walking_time": 60, "accessible": true, "path_type": "walkway" },
+    { "id": "P-33", "start_node_id": "N-35", "end_node_id": "N-11", "distance": 85, "walking_time": 65, "accessible": true, "path_type": "walkway" },
+    { "id": "P-34", "start_node_id": "N-13", "end_node_id": "N-11", "distance": 130, "walking_time": 95, "accessible": true, "path_type": "walkway" },
+    { "id": "P-35", "start_node_id": "N-08", "end_node_id": "N-15", "distance": 135, "walking_time": 100, "accessible": true, "path_type": "walkway" },
+    { "id": "P-36", "start_node_id": "N-15", "end_node_id": "N-14", "distance": 150, "walking_time": 110, "accessible": true, "path_type": "walkway" },
+    { "id": "P-37", "start_node_id": "N-08", "end_node_id": "N-14", "distance": 190, "walking_time": 140, "accessible": true, "path_type": "walkway" },
+    { "id": "P-38", "start_node_id": "N-14", "end_node_id": "N-16", "distance": 120, "walking_time": 90, "accessible": true, "path_type": "walkway" },
+    { "id": "P-39", "start_node_id": "N-11", "end_node_id": "N-17", "distance": 130, "walking_time": 95, "accessible": true, "path_type": "walkway" },
+    { "id": "P-40", "start_node_id": "N-16", "end_node_id": "N-17", "distance": 210, "walking_time": 155, "accessible": true, "path_type": "walkway" },
+    { "id": "P-41", "start_node_id": "N-13", "end_node_id": "N-17", "distance": 220, "walking_time": 165, "accessible": true, "path_type": "walkway" },
+    { "id": "P-42", "start_node_id": "N-17", "end_node_id": "N-21", "distance": 140, "walking_time": 105, "accessible": true, "path_type": "walkway" },
+    { "id": "P-43", "start_node_id": "N-21", "end_node_id": "N-20", "distance": 130, "walking_time": 95, "accessible": true, "path_type": "walkway" },
+    { "id": "P-44", "start_node_id": "N-21", "end_node_id": "N-22", "distance": 150, "walking_time": 110, "accessible": true, "path_type": "walkway" },
+    { "id": "P-45", "start_node_id": "N-22", "end_node_id": "N-23", "distance": 140, "walking_time": 105, "accessible": true, "path_type": "walkway" },
+    { "id": "P-46", "start_node_id": "N-19", "end_node_id": "N-25", "distance": 145, "walking_time": 105, "accessible": true, "path_type": "walkway" },
+    { "id": "P-47", "start_node_id": "N-25", "end_node_id": "N-24", "distance": 160, "walking_time": 120, "accessible": true, "path_type": "walkway" },
+    { "id": "P-48", "start_node_id": "N-25", "end_node_id": "N-20", "distance": 190, "walking_time": 140, "accessible": true, "path_type": "walkway" },
+    { "id": "P-49", "start_node_id": "N-24", "end_node_id": "N-23", "distance": 320, "walking_time": 240, "accessible": true, "path_type": "walkway" },
+    { "id": "P-50", "start_node_id": "N-10", "end_node_id": "N-07", "distance": 160, "walking_time": 120, "accessible": true, "path_type": "walkway" }
+  ]
+}

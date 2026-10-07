@@ -19,17 +19,26 @@ from app.routes.emergency import router as emergency_router
 from app.routes.assistant import router as assistant_router
 from app.routes.admin import router as admin_router
 
+def init_db():
+    """Ensure database tables, seeds, and navigation graph are loaded."""
+    try:
+        Base.metadata.create_all(bind=engine)
+        db = SessionLocal()
+        try:
+            seed_database(db)
+            navigation_service.load_graph(db)
+            print("[Startup] CampusNav database and routing graph successfully initialized.")
+        finally:
+            db.close()
+    except Exception as e:
+        print(f"[Init DB Error] {e}")
+
+# Initialize eagerly for serverless environments where ASGI lifespan is not invoked
+init_db()
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: create tables and seed
-    Base.metadata.create_all(bind=engine)
-    db = SessionLocal()
-    try:
-        seed_database(db)
-        navigation_service.load_graph(db)
-        print("[Startup] CampusNav database and routing graph successfully initialized.")
-    finally:
-        db.close()
+    init_db()
     yield
     # Shutdown
     print("[Shutdown] CampusNav API shutting down.")

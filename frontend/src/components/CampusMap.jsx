@@ -188,8 +188,11 @@ export default function CampusMap({
   const [showFacilityMarkers, setShowFacilityMarkers] = useState(true);
   const [tileTheme, setTileTheme] = useState('dark'); // 'dark' | 'standard'
 
+  const cartoApiKey = import.meta.env.VITE_CARTO_API_KEY || '';
   const tileUrls = {
-    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    dark: cartoApiKey 
+      ? `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=${cartoApiKey}`
+      : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
     standard: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   };
 
@@ -234,8 +237,9 @@ export default function CampusMap({
         <MapController center={mapCenter} zoom={mapZoom} />
 
         <TileLayer
-          attribution='&copy; <a href="https://carto.com/">Carto</a>, <a href="https://openstreetmap.org">OSM</a>'
+          attribution='&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>'
           url={tileUrls[tileTheme]}
+          className={tileTheme === 'dark' && !cartoApiKey ? 'dark-gis-tiles' : ''}
           maxZoom={20}
         />
 

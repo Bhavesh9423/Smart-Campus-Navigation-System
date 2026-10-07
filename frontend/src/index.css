@@ -76,3 +76,12 @@
   stroke-dasharray: 8, 8;
   animation: dash 1.5s linear infinite;
 }
+
+/* Dark GIS map basemap styling without API key watermark */
+.dark-gis-tiles,
+.dark-gis-tiles .leaflet-tile,
+.leaflet-tile.dark-gis-tiles,
+.leaflet-layer.dark-gis-tiles .leaflet-tile {
+  filter: invert(100%) hue-rotate(180deg) brightness(85%) contrast(90%) !important;
+}
+

@@ -1,0 +1,2695 @@
+{
+  "type": "FeatureCollection",
+  "campus_info": {
+    "name": "Apex Institute of Technology & Science",
+    "short_name": "AITS Campus",
+    "description": "Smart, green, state-of-the-art campus navigation network",
+    "center": {
+      "latitude": 13.0105,
+      "longitude": 80.2355
+    },
+    "default_zoom": 17,
+    "bounds": {
+      "southWest": [
+        13.006,
+        80.23
+      ],
+      "northEast": [
+        13.016,
+        80.242
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "b-gate-main",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2352,
+              13.0068
+            ],
+            [
+              80.2352,
+              13.0072
+            ],
+            [
+              80.2358,
+              13.0072
+            ],
+            [
+              80.2358,
+              13.0068
+            ],
+            [
+              80.2352,
+              13.0068
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-gate-main",
+        "name": "Main Gate & Welcome Center",
+        "code": "GATE-1",
+        "category": "emergency",
+        "description": "Primary campus entrance for visitors, students, and shuttle transit with security booth.",
+        "floors_count": 1,
+        "entrance_node_id": "N-01",
+        "center": [
+          80.2355,
+          13.007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-admin",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.234,
+              13.0082
+            ],
+            [
+              80.234,
+              13.0088
+            ],
+            [
+              80.235,
+              13.0088
+            ],
+            [
+              80.235,
+              13.0082
+            ],
+            [
+              80.234,
+              13.0082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-admin",
+        "name": "Administration Block",
+        "code": "ADMN",
+        "category": "administration",
+        "description": "Central administrative headquarters including Dean's office, Registrar, and Academic Affairs.",
+        "floors_count": 3,
+        "entrance_node_id": "N-03",
+        "center": [
+          80.2345,
+          13.0085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-academic-a",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.233,
+              13.0096
+            ],
+            [
+              80.233,
+              13.0104
+            ],
+            [
+              80.234,
+              13.0104
+            ],
+            [
+              80.234,
+              13.0096
+            ],
+            [
+              80.233,
+              13.0096
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-academic-a",
+        "name": "Academic Block A",
+        "code": "ACA",
+        "category": "academic",
+        "description": "Multidisciplinary academic complex hosting Computer Science, Mathematics, and lecture theaters.",
+        "floors_count": 4,
+        "entrance_node_id": "N-06",
+        "center": [
+          80.2335,
+          13.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-academic-b",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.233,
+              13.0114
+            ],
+            [
+              80.233,
+              13.0122
+            ],
+            [
+              80.234,
+              13.0122
+            ],
+            [
+              80.234,
+              13.0114
+            ],
+            [
+              80.233,
+              13.0114
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-academic-b",
+        "name": "Academic Block B",
+        "code": "ACB",
+        "category": "academic",
+        "description": "Houses Electronics & Communication, Electrical Engineering, and Physics labs.",
+        "floors_count": 4,
+        "entrance_node_id": "N-08",
+        "center": [
+          80.2335,
+          13.0118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-cse-dept",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2342,
+              13.0105
+            ],
+            [
+              80.2342,
+              13.0111
+            ],
+            [
+              80.235,
+              13.0111
+            ],
+            [
+              80.235,
+              13.0105
+            ],
+            [
+              80.2342,
+              13.0105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-cse-dept",
+        "name": "Computer Engineering Department",
+        "code": "CSE",
+        "category": "department",
+        "description": "Dedicated computing wing equipped with AI accelerators, servers, and modern programming bays.",
+        "floors_count": 3,
+        "entrance_node_id": "N-07",
+        "center": [
+          80.2346,
+          13.0108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-aids-dept",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2344,
+              13.0122
+            ],
+            [
+              80.2344,
+              13.0128
+            ],
+            [
+              80.2352,
+              13.0128
+            ],
+            [
+              80.2352,
+              13.0122
+            ],
+            [
+              80.2344,
+              13.0122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-aids-dept",
+        "name": "AI & Data Science Department",
+        "code": "AIDS",
+        "category": "department",
+        "description": "Advanced center for Machine Learning, Generative AI research, and Big Data Analytics.",
+        "floors_count": 3,
+        "entrance_node_id": "N-11",
+        "center": [
+          80.2348,
+          13.0125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-mech-dept",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.233,
+              13.0131
+            ],
+            [
+              80.233,
+              13.0139
+            ],
+            [
+              80.234,
+              13.0139
+            ],
+            [
+              80.234,
+              13.0131
+            ],
+            [
+              80.233,
+              13.0131
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-mech-dept",
+        "name": "Mechanical Department",
+        "code": "MECH",
+        "category": "department",
+        "description": "Department of Mechanical Engineering with heavy machinery, thermodynamic testing, and CAD rooms.",
+        "floors_count": 2,
+        "entrance_node_id": "N-14",
+        "center": [
+          80.2335,
+          13.0135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-civil-dept",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2333,
+              13.0141
+            ],
+            [
+              80.2333,
+              13.0149
+            ],
+            [
+              80.2343,
+              13.0149
+            ],
+            [
+              80.2343,
+              13.0141
+            ],
+            [
+              80.2333,
+              13.0141
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-civil-dept",
+        "name": "Civil Department",
+        "code": "CIVIL",
+        "category": "department",
+        "description": "Civil & Environmental Engineering building containing structural testing rigs and surveying bays.",
+        "floors_count": 2,
+        "entrance_node_id": "N-16",
+        "center": [
+          80.2338,
+          13.0145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-library",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2363,
+              13.01
+            ],
+            [
+              80.2363,
+              13.011
+            ],
+            [
+              80.2373,
+              13.011
+            ],
+            [
+              80.2373,
+              13.01
+            ],
+            [
+              80.2363,
+              13.01
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-library",
+        "name": "Central Library",
+        "code": "LIB",
+        "category": "library",
+        "description": "Three-story modern knowledge repository with digital reading lounge, research archives, and quiet study pods.",
+        "floors_count": 3,
+        "entrance_node_id": "N-09",
+        "center": [
+          80.2368,
+          13.0105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-canteen",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.236,
+              13.0086
+            ],
+            [
+              80.236,
+              13.0094
+            ],
+            [
+              80.237,
+              13.0094
+            ],
+            [
+              80.237,
+              13.0086
+            ],
+            [
+              80.236,
+              13.0086
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-canteen",
+        "name": "Canteen & Student Food Court",
+        "code": "CANTEEN",
+        "category": "food",
+        "description": "Multi-cuisine cafeteria with indoor air-conditioned seating, open terrace cafe, and quick snack counters.",
+        "floors_count": 2,
+        "entrance_node_id": "N-12",
+        "center": [
+          80.2365,
+          13.009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-boys-hostel",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2375,
+              13.013
+            ],
+            [
+              80.2375,
+              13.014
+            ],
+            [
+              80.2385,
+              13.014
+            ],
+            [
+              80.2385,
+              13.013
+            ],
+            [
+              80.2375,
+              13.013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-boys-hostel",
+        "name": "Boys Hostel Complex",
+        "code": "BH",
+        "category": "hostel",
+        "description": "Multi-wing student residential quarters with recreation room, mess hall, and resident warden office.",
+        "floors_count": 4,
+        "entrance_node_id": "N-20",
+        "center": [
+          80.238,
+          13.0135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-girls-hostel",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2365,
+              13.0143
+            ],
+            [
+              80.2365,
+              13.0153
+            ],
+            [
+              80.2375,
+              13.0153
+            ],
+            [
+              80.2375,
+              13.0143
+            ],
+            [
+              80.2365,
+              13.0143
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-girls-hostel",
+        "name": "Girls Hostel Complex",
+        "code": "GH",
+        "category": "hostel",
+        "description": "Safe, secure hostel facility for female students with 24/7 biometric access and dedicated study zone.",
+        "floors_count": 4,
+        "entrance_node_id": "N-22",
+        "center": [
+          80.237,
+          13.0148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-sports",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2388,
+              13.0118
+            ],
+            [
+              80.2388,
+              13.0132
+            ],
+            [
+              80.2402,
+              13.0132
+            ],
+            [
+              80.2402,
+              13.0118
+            ],
+            [
+              80.2388,
+              13.0118
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-sports",
+        "name": "Sports Ground & Gymnasium",
+        "code": "SPORTS",
+        "category": "sports",
+        "description": "Athletic track, football pitch, indoor badminton courts, and modern weight training gymnasium.",
+        "floors_count": 2,
+        "entrance_node_id": "N-24",
+        "center": [
+          80.2395,
+          13.0125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-medical",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2366,
+              13.0072
+            ],
+            [
+              80.2366,
+              13.0078
+            ],
+            [
+              80.2374,
+              13.0078
+            ],
+            [
+              80.2374,
+              13.0072
+            ],
+            [
+              80.2366,
+              13.0072
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-medical",
+        "name": "Medical Center",
+        "code": "MED",
+        "category": "medical",
+        "description": "Emergency clinic staffed with doctors, 24/7 nursing station, pharmacy, and ambulance bay.",
+        "floors_count": 1,
+        "entrance_node_id": "N-26",
+        "center": [
+          80.237,
+          13.0075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-parking-main",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2335,
+              13.0066
+            ],
+            [
+              80.2335,
+              13.0074
+            ],
+            [
+              80.2345,
+              13.0074
+            ],
+            [
+              80.2345,
+              13.0066
+            ],
+            [
+              80.2335,
+              13.0066
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-parking-main",
+        "name": "Main Parking Area",
+        "code": "PARK1",
+        "category": "parking",
+        "description": "Designated multi-vehicle parking for two-wheelers, four-wheelers, and electric vehicle charging bays.",
+        "floors_count": 1,
+        "entrance_node_id": "N-02",
+        "center": [
+          80.234,
+          13.007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-seminar-hall",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2356,
+              13.0109
+            ],
+            [
+              80.2356,
+              13.0115
+            ],
+            [
+              80.2364,
+              13.0115
+            ],
+            [
+              80.2364,
+              13.0109
+            ],
+            [
+              80.2356,
+              13.0109
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-seminar-hall",
+        "name": "Central Seminar Hall Complex",
+        "code": "SEM-HALL",
+        "category": "academic",
+        "description": "Multi-tiered acoustic conference hall for academic symposia, guest lectures, and tech seminars.",
+        "floors_count": 2,
+        "entrance_node_id": "N-10",
+        "center": [
+          80.236,
+          13.0112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-auditorium",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2377,
+              13.0093
+            ],
+            [
+              80.2377,
+              13.0103
+            ],
+            [
+              80.2387,
+              13.0103
+            ],
+            [
+              80.2387,
+              13.0093
+            ],
+            [
+              80.2377,
+              13.0093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-auditorium",
+        "name": "Central Auditorium",
+        "code": "AUDI",
+        "category": "facility",
+        "description": "Grand 1500-seat university auditorium for convocation, cultural festivals, and national symposiums.",
+        "floors_count": 2,
+        "entrance_node_id": "N-18",
+        "center": [
+          80.2382,
+          13.0098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-security",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2355,
+              13.0075
+            ],
+            [
+              80.2355,
+              13.0081
+            ],
+            [
+              80.2361,
+              13.0081
+            ],
+            [
+              80.2361,
+              13.0075
+            ],
+            [
+              80.2355,
+              13.0075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-security",
+        "name": "Security Office & Emergency Command",
+        "code": "SEC",
+        "category": "emergency",
+        "description": "24/7 Campus safety monitoring center, CCTV surveillance hub, and emergency incident dispatch.",
+        "floors_count": 1,
+        "entrance_node_id": "N-04",
+        "center": [
+          80.2358,
+          13.0078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-robotics-lab",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.232,
+              13.0121
+            ],
+            [
+              80.232,
+              13.0129
+            ],
+            [
+              80.233,
+              13.0129
+            ],
+            [
+              80.233,
+              13.0121
+            ],
+            [
+              80.232,
+              13.0121
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-robotics-lab",
+        "name": "Innovation & Robotics Lab",
+        "code": "ROBOTICS",
+        "category": "laboratory",
+        "description": "Specialized incubator for autonomous robotics, drones, 3D printing, and rapid prototyping.",
+        "floors_count": 2,
+        "entrance_node_id": "N-15",
+        "center": [
+          80.2325,
+          13.0125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b-bus-stop",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2358,
+              13.006
+            ],
+            [
+              80.2358,
+              13.0064
+            ],
+            [
+              80.2366,
+              13.0064
+            ],
+            [
+              80.2366,
+              13.006
+            ],
+            [
+              80.2358,
+              13.006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "b-bus-stop",
+        "name": "Campus Bus Stop & Transit Hub",
+        "code": "BUS",
+        "category": "facility",
+        "description": "Terminal for college transit buses, city connections, and electric shuttle pickup.",
+        "floors_count": 1,
+        "entrance_node_id": "N-28",
+        "center": [
+          80.2362,
+          13.0062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.007
+          ],
+          [
+            80.2355,
+            13.0075
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-01",
+        "start_node_id": "N-01",
+        "end_node_id": "N-27",
+        "distance": 60,
+        "walking_time": 45,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0075
+          ],
+          [
+            80.2358,
+            13.0078
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-02",
+        "start_node_id": "N-27",
+        "end_node_id": "N-04",
+        "distance": 45,
+        "walking_time": 35,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0075
+          ],
+          [
+            80.2345,
+            13.0075
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-03",
+        "start_node_id": "N-27",
+        "end_node_id": "N-29",
+        "distance": 115,
+        "walking_time": 85,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.0075
+          ],
+          [
+            80.234,
+            13.007
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-04",
+        "start_node_id": "N-29",
+        "end_node_id": "N-02",
+        "distance": 80,
+        "walking_time": 60,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.0075
+          ],
+          [
+            80.2345,
+            13.0085
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-05",
+        "start_node_id": "N-29",
+        "end_node_id": "N-03",
+        "distance": 110,
+        "walking_time": 80,
+        "accessible": true,
+        "path_type": "ramp"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0075
+          ],
+          [
+            80.2355,
+            13.0088
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-06",
+        "start_node_id": "N-27",
+        "end_node_id": "N-05",
+        "distance": 145,
+        "walking_time": 105,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-07",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2358,
+            13.0078
+          ],
+          [
+            80.237,
+            13.0075
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-07",
+        "start_node_id": "N-04",
+        "end_node_id": "N-26",
+        "distance": 135,
+        "walking_time": 100,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-08",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.007
+          ],
+          [
+            80.2362,
+            13.0062
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-08",
+        "start_node_id": "N-01",
+        "end_node_id": "N-28",
+        "distance": 120,
+        "walking_time": 90,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-09",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2362,
+            13.0062
+          ],
+          [
+            80.237,
+            13.0075
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-09",
+        "start_node_id": "N-28",
+        "end_node_id": "N-26",
+        "distance": 160,
+        "walking_time": 120,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-10",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.0085
+          ],
+          [
+            80.2355,
+            13.0088
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-10",
+        "start_node_id": "N-03",
+        "end_node_id": "N-05",
+        "distance": 115,
+        "walking_time": 85,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-11",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.0085
+          ],
+          [
+            80.2345,
+            13.01
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-11",
+        "start_node_id": "N-03",
+        "end_node_id": "N-30",
+        "distance": 165,
+        "walking_time": 120,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-12",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0088
+          ],
+          [
+            80.2365,
+            13.009
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-12",
+        "start_node_id": "N-05",
+        "end_node_id": "N-12",
+        "distance": 110,
+        "walking_time": 80,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-13",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0088
+          ],
+          [
+            80.2345,
+            13.01
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-13",
+        "start_node_id": "N-05",
+        "end_node_id": "N-30",
+        "distance": 170,
+        "walking_time": 125,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-14",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.01
+          ],
+          [
+            80.2335,
+            13.01
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-14",
+        "start_node_id": "N-30",
+        "end_node_id": "N-06",
+        "distance": 110,
+        "walking_time": 80,
+        "accessible": true,
+        "path_type": "ramp"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-15",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.01
+          ],
+          [
+            80.2346,
+            13.0108
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-15",
+        "start_node_id": "N-30",
+        "end_node_id": "N-07",
+        "distance": 90,
+        "walking_time": 65,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-16",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2345,
+            13.01
+          ],
+          [
+            80.235,
+            13.0102
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-16",
+        "start_node_id": "N-30",
+        "end_node_id": "N-31",
+        "distance": 60,
+        "walking_time": 45,
+        "accessible": false,
+        "path_type": "stairs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-17",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.235,
+            13.0102
+          ],
+          [
+            80.2362,
+            13.0103
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-17",
+        "start_node_id": "N-31",
+        "end_node_id": "N-32",
+        "distance": 130,
+        "walking_time": 95,
+        "accessible": false,
+        "path_type": "stairs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-18",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2362,
+            13.0103
+          ],
+          [
+            80.2368,
+            13.0105
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-18",
+        "start_node_id": "N-32",
+        "end_node_id": "N-09",
+        "distance": 70,
+        "walking_time": 50,
+        "accessible": false,
+        "path_type": "stairs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-19",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0088
+          ],
+          [
+            80.2357,
+            13.0106
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-19",
+        "start_node_id": "N-05",
+        "end_node_id": "N-33",
+        "distance": 200,
+        "walking_time": 150,
+        "accessible": true,
+        "path_type": "ramp"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-20",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2357,
+            13.0106
+          ],
+          [
+            80.2355,
+            13.0115
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-20",
+        "start_node_id": "N-33",
+        "end_node_id": "N-13",
+        "distance": 105,
+        "walking_time": 75,
+        "accessible": true,
+        "path_type": "ramp"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-21",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2357,
+            13.0106
+          ],
+          [
+            80.2368,
+            13.0105
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-21",
+        "start_node_id": "N-33",
+        "end_node_id": "N-09",
+        "distance": 120,
+        "walking_time": 90,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-22",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2365,
+            13.009
+          ],
+          [
+            80.2368,
+            13.0095
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-22",
+        "start_node_id": "N-12",
+        "end_node_id": "N-34",
+        "distance": 65,
+        "walking_time": 50,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-23",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2368,
+            13.0095
+          ],
+          [
+            80.2368,
+            13.0105
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-23",
+        "start_node_id": "N-34",
+        "end_node_id": "N-09",
+        "distance": 110,
+        "walking_time": 80,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-24",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2368,
+            13.0095
+          ],
+          [
+            80.2382,
+            13.0098
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-24",
+        "start_node_id": "N-34",
+        "end_node_id": "N-18",
+        "distance": 150,
+        "walking_time": 110,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-25",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.237,
+            13.0075
+          ],
+          [
+            80.2382,
+            13.0098
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-25",
+        "start_node_id": "N-26",
+        "end_node_id": "N-18",
+        "distance": 280,
+        "walking_time": 210,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2382,
+            13.0098
+          ],
+          [
+            80.2382,
+            13.0105
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-26",
+        "start_node_id": "N-18",
+        "end_node_id": "N-19",
+        "distance": 80,
+        "walking_time": 60,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-27",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2368,
+            13.0105
+          ],
+          [
+            80.2382,
+            13.0105
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-27",
+        "start_node_id": "N-09",
+        "end_node_id": "N-19",
+        "distance": 150,
+        "walking_time": 110,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-28",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2368,
+            13.0105
+          ],
+          [
+            80.236,
+            13.0112
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-28",
+        "start_node_id": "N-09",
+        "end_node_id": "N-10",
+        "distance": 120,
+        "walking_time": 90,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-29",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.236,
+            13.0112
+          ],
+          [
+            80.2355,
+            13.0115
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-29",
+        "start_node_id": "N-10",
+        "end_node_id": "N-13",
+        "distance": 65,
+        "walking_time": 50,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-30",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2346,
+            13.0108
+          ],
+          [
+            80.2355,
+            13.0115
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-30",
+        "start_node_id": "N-07",
+        "end_node_id": "N-13",
+        "distance": 125,
+        "walking_time": 95,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-31",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2335,
+            13.01
+          ],
+          [
+            80.2335,
+            13.0118
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-31",
+        "start_node_id": "N-06",
+        "end_node_id": "N-08",
+        "distance": 200,
+        "walking_time": 150,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-32",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2335,
+            13.0118
+          ],
+          [
+            80.2342,
+            13.012
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-32",
+        "start_node_id": "N-08",
+        "end_node_id": "N-35",
+        "distance": 80,
+        "walking_time": 60,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-33",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2342,
+            13.012
+          ],
+          [
+            80.2348,
+            13.0125
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-33",
+        "start_node_id": "N-35",
+        "end_node_id": "N-11",
+        "distance": 85,
+        "walking_time": 65,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-34",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0115
+          ],
+          [
+            80.2348,
+            13.0125
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-34",
+        "start_node_id": "N-13",
+        "end_node_id": "N-11",
+        "distance": 130,
+        "walking_time": 95,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-35",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2335,
+            13.0118
+          ],
+          [
+            80.2325,
+            13.0125
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-35",
+        "start_node_id": "N-08",
+        "end_node_id": "N-15",
+        "distance": 135,
+        "walking_time": 100,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-36",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2325,
+            13.0125
+          ],
+          [
+            80.2335,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-36",
+        "start_node_id": "N-15",
+        "end_node_id": "N-14",
+        "distance": 150,
+        "walking_time": 110,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-37",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2335,
+            13.0118
+          ],
+          [
+            80.2335,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-37",
+        "start_node_id": "N-08",
+        "end_node_id": "N-14",
+        "distance": 190,
+        "walking_time": 140,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-38",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2335,
+            13.0135
+          ],
+          [
+            80.2338,
+            13.0145
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-38",
+        "start_node_id": "N-14",
+        "end_node_id": "N-16",
+        "distance": 120,
+        "walking_time": 90,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-39",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2348,
+            13.0125
+          ],
+          [
+            80.2355,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-39",
+        "start_node_id": "N-11",
+        "end_node_id": "N-17",
+        "distance": 130,
+        "walking_time": 95,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-40",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2338,
+            13.0145
+          ],
+          [
+            80.2355,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-40",
+        "start_node_id": "N-16",
+        "end_node_id": "N-17",
+        "distance": 210,
+        "walking_time": 155,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-41",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0115
+          ],
+          [
+            80.2355,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-41",
+        "start_node_id": "N-13",
+        "end_node_id": "N-17",
+        "distance": 220,
+        "walking_time": 165,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-42",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2355,
+            13.0135
+          ],
+          [
+            80.2368,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-42",
+        "start_node_id": "N-17",
+        "end_node_id": "N-21",
+        "distance": 140,
+        "walking_time": 105,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-43",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2368,
+            13.0135
+          ],
+          [
+            80.238,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-43",
+        "start_node_id": "N-21",
+        "end_node_id": "N-20",
+        "distance": 130,
+        "walking_time": 95,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-44",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2368,
+            13.0135
+          ],
+          [
+            80.237,
+            13.0148
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-44",
+        "start_node_id": "N-21",
+        "end_node_id": "N-22",
+        "distance": 150,
+        "walking_time": 110,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-45",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.237,
+            13.0148
+          ],
+          [
+            80.2382,
+            13.0152
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-45",
+        "start_node_id": "N-22",
+        "end_node_id": "N-23",
+        "distance": 140,
+        "walking_time": 105,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-46",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2382,
+            13.0105
+          ],
+          [
+            80.2382,
+            13.0118
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-46",
+        "start_node_id": "N-19",
+        "end_node_id": "N-25",
+        "distance": 145,
+        "walking_time": 105,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-47",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2382,
+            13.0118
+          ],
+          [
+            80.2395,
+            13.0125
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-47",
+        "start_node_id": "N-25",
+        "end_node_id": "N-24",
+        "distance": 160,
+        "walking_time": 120,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-48",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2382,
+            13.0118
+          ],
+          [
+            80.238,
+            13.0135
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-48",
+        "start_node_id": "N-25",
+        "end_node_id": "N-20",
+        "distance": 190,
+        "walking_time": 140,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-49",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2395,
+            13.0125
+          ],
+          [
+            80.2382,
+            13.0152
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-49",
+        "start_node_id": "N-24",
+        "end_node_id": "N-23",
+        "distance": 320,
+        "walking_time": 240,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-50",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.236,
+            13.0112
+          ],
+          [
+            80.2346,
+            13.0108
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "path",
+        "id": "P-50",
+        "start_node_id": "N-10",
+        "end_node_id": "N-07",
+        "distance": 160,
+        "walking_time": 120,
+        "accessible": true,
+        "path_type": "walkway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2368,
+          13.0105
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-01",
+        "name": "Central Library Reading Hall",
+        "category": "library",
+        "building_id": "b-library",
+        "description": "Air-conditioned 200-seat silent reading room with Wi-Fi and power outlets at every desk.",
+        "opening_hours": "08:00 AM - 10:00 PM (Mon-Sat)",
+        "contact": "+91 44 2257 8001"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2365,
+          13.009
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-02",
+        "name": "Tech Cafe & Food Court",
+        "category": "food",
+        "building_id": "b-canteen",
+        "description": "Fresh meals, snacks, gourmet coffees, and refreshments with student meal card acceptance.",
+        "opening_hours": "07:30 AM - 09:30 PM (Daily)",
+        "contact": "+91 44 2257 8002"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.237,
+          13.0075
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-03",
+        "name": "Campus Health Clinic & First Aid",
+        "category": "medical",
+        "building_id": "b-medical",
+        "description": "24/7 outpatient medical care, ambulance dispatch, and generic pharmacy.",
+        "opening_hours": "24 Hours (7 Days)",
+        "contact": "+91 44 2257 108"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2348,
+          13.0084
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-04",
+        "name": "SBI Campus ATM",
+        "category": "facility",
+        "building_id": "b-admin",
+        "description": "24-hour Automated Teller Machine with cash deposit and passbook kiosk.",
+        "opening_hours": "24 Hours",
+        "contact": "1800 1234 56"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2395,
+          13.0125
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-05",
+        "name": "Sports Pavilion & Gymnasium",
+        "category": "sports",
+        "building_id": "b-sports",
+        "description": "Modern fitness equipment, cardio stations, and certified coaches.",
+        "opening_hours": "06:00 AM - 09:00 AM, 04:30 PM - 08:30 PM",
+        "contact": "+91 44 2257 8005"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2343,
+          13.0102
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-06",
+        "name": "Emergency Assembly Point Alpha",
+        "category": "emergency",
+        "building_id": "b-academic-a",
+        "description": "Designated open-air safety evacuation area in front of Academic Block A lawn.",
+        "opening_hours": "Open 24/7",
+        "contact": "Campus Security: 100 / 108"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2385,
+          13.012
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-07",
+        "name": "Emergency Assembly Point Beta",
+        "category": "emergency",
+        "building_id": "b-sports",
+        "description": "Primary assembly ground during earthquakes or campus-wide emergency protocols.",
+        "opening_hours": "Open 24/7",
+        "contact": "Security Command: 044-2257-9999"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2358,
+          13.0078
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-08",
+        "name": "Campus Security Command Booth",
+        "category": "emergency",
+        "building_id": "b-security",
+        "description": "Central security personnel station and lost & found verification.",
+        "opening_hours": "24 Hours",
+        "contact": "+91 44 2257 9999"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2342,
+          13.0071
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-09",
+        "name": "EV Fast Charging Station",
+        "category": "parking",
+        "building_id": "b-parking-main",
+        "description": "Equipped with Type-2 AC and CCS-2 DC fast charging points for campus visitors and faculty.",
+        "opening_hours": "24 Hours",
+        "contact": "Helpdesk Ext: 8012"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2332,
+          13.0098
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-10",
+        "name": "Central Restrooms - West Quad",
+        "category": "facility",
+        "building_id": "b-academic-a",
+        "description": "Clean, universally accessible restrooms with dedicated wheelchair ramp access.",
+        "opening_hours": "07:00 AM - 09:00 PM",
+        "contact": "Facilities: 8015"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2367,
+          13.0088
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-11",
+        "name": "Student Stationery & Xerox Center",
+        "category": "facility",
+        "building_id": "b-canteen",
+        "description": "High-speed document printing, spiral binding, thesis plotting, and academic stationery.",
+        "opening_hours": "08:30 AM - 07:30 PM",
+        "contact": "+91 98401 23456"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2346,
+          13.0086
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-12",
+        "name": "Placement & Career Development Cell",
+        "category": "administration",
+        "building_id": "b-admin",
+        "description": "Training halls, mock interview cubicles, and corporate recruiter meeting suites.",
+        "opening_hours": "09:00 AM - 06:00 PM",
+        "contact": "placement@apex.edu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2344,
+          13.0087
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-13",
+        "name": "Dean of Academic Affairs Chamber",
+        "category": "administration",
+        "building_id": "b-admin",
+        "description": "Curriculum approval, academic grievances, and student records.",
+        "opening_hours": "10:00 AM - 04:30 PM",
+        "contact": "dean.acad@apex.edu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2347,
+          13.0107
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-14",
+        "name": "High Performance GPU Server Bay",
+        "category": "laboratory",
+        "building_id": "b-cse-dept",
+        "description": "NVIDIA DGX A100 server cluster for AI researchers and deep learning courses.",
+        "opening_hours": "24/7 Remote / 08:30 AM - 06:00 PM Physical",
+        "contact": "hpc-admin@apex.edu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2335,
+          13.0135
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-15",
+        "name": "Mechanical Engineering CAD Lab",
+        "category": "laboratory",
+        "building_id": "b-mech-dept",
+        "description": "SolidWorks and ANSYS certified laboratory with 60 workstations.",
+        "opening_hours": "08:30 AM - 05:30 PM",
+        "contact": "+91 44 2257 8016"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2338,
+          13.0145
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-16",
+        "name": "Civil Engineering Material Testing Lab",
+        "category": "laboratory",
+        "building_id": "b-civil-dept",
+        "description": "Universal Testing Machine (UTM) and compressive structural test rigs.",
+        "opening_hours": "08:30 AM - 05:30 PM",
+        "contact": "+91 44 2257 8017"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2325,
+          13.0125
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-17",
+        "name": "Maker Space & 3D Print Farm",
+        "category": "laboratory",
+        "building_id": "b-robotics-lab",
+        "description": "Open student workshop with filament/resin 3D printers, laser cutters, and electronics soldering.",
+        "opening_hours": "09:00 AM - 08:00 PM",
+        "contact": "makerspace@apex.edu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2365,
+          13.0102
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-18",
+        "name": "Central Fire Alarm & Hydrant Post",
+        "category": "emergency",
+        "building_id": "b-library",
+        "description": "High-pressure fire suppression controls and safety emergency valve post.",
+        "opening_hours": "Always Active",
+        "contact": "Emergency: 101"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2362,
+          13.0062
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-19",
+        "name": "Shuttle Transit Waiting Shelter",
+        "category": "facility",
+        "building_id": "b-bus-stop",
+        "description": "Covered electric bus pickup shelter with solar charging benches.",
+        "opening_hours": "06:30 AM - 10:00 PM",
+        "contact": "ext: 8020"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fac-20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2349,
+          13.0083
+        ]
+      },
+      "properties": {
+        "feature_type": "facility",
+        "id": "fac-20",
+        "name": "Bank Branch & Student Account Desk",
+        "category": "facility",
+        "building_id": "b-admin",
+        "description": "Full-service branch for student scholarships, accounts, and educational drafts.",
+        "opening_hours": "10:00 AM - 04:00 PM (Mon-Fri)",
+        "contact": "+91 44 2257 8022"
+      }
+    }
+  ]
+}

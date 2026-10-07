@@ -12,8 +12,15 @@ router = APIRouter(tags=["Campus"])
 GEOJSON_PATHS = [
     os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "campus.geojson"),
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "campus.geojson"),
+    os.path.join(os.path.dirname(__file__), "..", "data", "campus.geojson"),
+    os.path.join(os.path.dirname(__file__), "campus.geojson"),
     os.path.join(os.getcwd(), "data", "campus.geojson"),
     os.path.join(os.getcwd(), "..", "data", "campus.geojson"),
+    os.path.join(os.getcwd(), "backend", "data", "campus.geojson"),
+    os.path.join(os.getcwd(), "api", "data", "campus.geojson"),
+    "/var/task/data/campus.geojson",
+    "/var/task/backend/data/campus.geojson",
+    "/var/task/api/data/campus.geojson",
 ]
 
 def find_geojson_file() -> str:

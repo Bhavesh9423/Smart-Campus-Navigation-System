@@ -9,8 +9,15 @@ from app.config import settings
 SAMPLE_DATA_PATHS = [
     os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "sample-data.json"),
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "sample-data.json"),
+    os.path.join(os.path.dirname(__file__), "..", "data", "sample-data.json"),
+    os.path.join(os.path.dirname(__file__), "sample-data.json"),
     os.path.join(os.getcwd(), "data", "sample-data.json"),
     os.path.join(os.getcwd(), "..", "data", "sample-data.json"),
+    os.path.join(os.getcwd(), "backend", "data", "sample-data.json"),
+    os.path.join(os.getcwd(), "api", "data", "sample-data.json"),
+    "/var/task/data/sample-data.json",
+    "/var/task/backend/data/sample-data.json",
+    "/var/task/api/data/sample-data.json",
 ]
 
 def find_sample_data_file() -> str:
